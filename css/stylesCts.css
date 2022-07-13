@@ -6,7 +6,7 @@
 }
 @media (min-width:769px) and (max-width:1300px){
     .padre{
-        background-image: url(/assets/images/fondo.png);
+        background-image: url(/images/fondo.png);
         display: grid;
         padding: 10px;
         column-gap: 10px;
@@ -20,7 +20,7 @@
                             "footer footer";
     }
     body{
-        background-image: url(/assets/images/fondo.png);
+        background-image: url(/images/fondo.png);
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;

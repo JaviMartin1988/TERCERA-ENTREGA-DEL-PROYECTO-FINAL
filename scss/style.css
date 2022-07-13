@@ -211,7 +211,7 @@
 }
 @media (max-width: 768px) {
   .padre {
-    background-image: url(/assets/images/fondo2.png);
+    background-image: url(/images/fondo2.png);
     display: grid;
     flex-wrap: wrap;
     flex-direction: row;
@@ -361,7 +361,7 @@
 }
 @media all and (max-width: 576px) {
   .padre {
-    background-image: url(/assets/images/fondo3.png);
+    background-image: url(/images/fondo3.png);
     display: grid;
     column-gap: 1px;
     row-gap: 5px;
