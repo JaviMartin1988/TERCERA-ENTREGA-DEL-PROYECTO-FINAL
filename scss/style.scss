@@ -1,0 +1,21 @@
+@import "reset.scss";
+@import "variables.scss";
+@import "body.scss";
+@import "nav.scss";
+@import "aside.scss";
+@import "footer.scss";
+
+@mixin propflex ($display,$direccion,$wrap,$justify,$align) {
+    display: $display;
+    flex-direction: $direccion;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
+.titulo{
+    @include propflex(flex,row,wrap,start,center);
+    align-items: center;
+    max-width: 500px;
+}
+
+
